@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Object Detector</title>
+        <link rel="icon" href="resources/favicon.svg">
+
+        <meta charset="utf-8">
+        <meta name="description" content="Object detection web-app.">
+        <meta name="author" content="jcberntsson">
+
+        <link rel="stylesheet" href="resources/main.css?v=1.0">
+    </head>
+    <body>
+        <button id="toggle" onclick="toggle()">Pause</button>
+        <video id="video" autoplay></video>
+        <canvas id="detections"></canvas>
+
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"> </script>
+        <script async src="./main.js"></script>
+    </body>
+</html>

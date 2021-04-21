@@ -1,0 +1,19 @@
+# Level specification document:
+#   * Elements for platforms: [x_start, x_end, y_start].
+#   * Elements for holes: [x_start, x_end].
+#   * Every level has a length of 800 pixels.
+1:
+  platforms:
+    - [200, 300, 50]
+  holes:
+    - [50, 120]
+    - [180, 320]
+    - [500, 590]
+2:
+  platforms:
+    - [75, 125, 50]
+    - [150, 200, 120]
+    - [210, 500, 150]
+    - [520, 800, 220]
+  holes:
+    - [50, 800]
