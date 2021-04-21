@@ -1,6 +1,6 @@
 # <img src="images/player.png"  width=55/> Mario-style game <img src="images/player.png"  width=55/>
 
-This sub-repository contains the source code of a mario-style game, written in Python. 
+This sub-repository contains the source code of a mario-style game, written in Python.
 
 Features:
  * Default sprites for player <img src="images/player.png"  width=25/> and ground/platforms <img src="images/ground.png" width=55/>
